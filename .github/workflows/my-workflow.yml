@@ -16,7 +16,7 @@ jobs:
       - name: hello-action
         uses: ./.github/actions/hello-world
         with:
-          # firstGreeting: null
+          firstGreeting: null
           # secondGreeting: "Still Learning"
           # thirdGreeting: "Learned"
 
