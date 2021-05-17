@@ -15,6 +15,8 @@ jobs:
 
       - name: hello-action
         uses: ./.github/actions/hello-world
+        with:
+          firstGreeting: "Learning Lab User"
 
   # # This workflow contains a single job called "build"
   # build:
